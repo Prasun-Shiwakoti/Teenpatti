@@ -1,0 +1,173 @@
+
+.hidden{
+    background: url("images/red_back.png") no-repeat center center/cover;
+}
+
+.CA{
+    background: url("images/AC.png") no-repeat center center/cover;
+    transform: rotate(180deg);
+}
+.C2{
+    background: url("images/2C.png") no-repeat center center/cover;
+}
+.C3{
+    background: url("images/3C.png") no-repeat center center/cover;
+}
+.C4{
+    background: url("images/4C.png") no-repeat center center/cover;
+}
+.C5{
+    background: url("images/5C.png") no-repeat center center/cover;
+}
+.C6{
+    background: url("images/6C.png") no-repeat center center/cover;
+}
+.C7{
+    background: url("images/7C.png") no-repeat center center/cover;
+}
+.C8{
+    background: url("images/8C.png") no-repeat center center/cover;
+}
+.C9{
+    background: url("images/9C.png") no-repeat center center/cover;
+}
+.C10{
+    background: url("images/10C.png") no-repeat center center/cover;
+}
+.CJ{
+    background: url("images/JC.png") no-repeat center center/cover;
+}
+.CQ{
+    background: url("images/QC.png") no-repeat center center/cover;
+}
+.CK{
+    background: url("images/KC.png") no-repeat center center/cover;
+}
+
+
+
+.HA{
+    background: url("images/AH.png") no-repeat center center/cover;
+    transform: rotate(180deg);
+}
+.H2{
+    background: url("images/2H.png") no-repeat center center/cover;
+}
+.H3{
+    background: url("images/3H.png") no-repeat center center/cover;
+}
+.H4{
+    background: url("images/4H.png") no-repeat center center/cover;
+}
+.H5{
+    background: url("images/5H.png") no-repeat center center/cover;
+}
+.H6{
+    background: url("images/6H.png") no-repeat center center/cover;
+}
+.H7{
+    background: url("images/7H.png") no-repeat center center/cover;
+}
+.H8{
+    background: url("images/8H.png") no-repeat center center/cover;
+}
+.H9{
+    background: url("images/9H.png") no-repeat center center/cover;
+}
+.H10{
+    background: url("images/10H.png") no-repeat center center/cover;
+}
+.HJ{
+    background: url("images/JH.png") no-repeat center center/cover;
+}
+.HQ{
+    background: url("images/QH.png") no-repeat center center/cover;
+}
+.HK{
+    background: url("images/KH.png") no-repeat center center/cover;
+}
+
+
+.DA{
+    background: url("images/AceD.png") no-repeat center center/cover;
+    transform: rotate(180deg);
+}
+.D2{
+    background: url("images/2D.png") no-repeat center center/cover;
+}
+.D3{
+    background: url("images/3D.png") no-repeat center center/cover;
+}
+.D4{
+    background: url("images/4D.png") no-repeat center center/cover;
+}
+.D5{
+    background: url("images/5D.png") no-repeat center center/cover;
+}
+.D6{
+    background: url("images/6D.png") no-repeat center center/cover;
+}
+.D7{
+    background: url("images/7D.png") no-repeat center center/cover;
+}
+.D8{
+    background: url("images/8D.png") no-repeat center center/cover;
+}
+.D9{
+    background: url("images/9D.png") no-repeat center center/cover;
+}
+.D10{
+    background: url("images/10D.png") no-repeat center center/cover;
+}
+.DJ{
+    background: url("images/JD.png") no-repeat center center/cover;
+}
+.DQ{
+    background: url("images/QD.png") no-repeat center center/cover;
+}
+.DK{
+    background: url("images/KD.png") no-repeat center center/cover;
+}
+
+
+
+.SA{
+    background: url("images/AS.png") no-repeat center center/cover;
+    transform: rotate(180deg);
+}
+.S2{
+    background: url("images/2S.png") no-repeat center center/cover;
+}
+.S3{
+    background: url("images/3S.png") no-repeat center center/cover;
+}
+.S4{
+    background: url("images/4S.png") no-repeat center center/cover;
+}
+.S5{
+    background: url("images/5S.png") no-repeat center center/cover;
+}
+.S6{
+    background: url("images/6S.png") no-repeat center center/cover;
+}
+.S7{
+    background: url("images/7S.png") no-repeat center center/cover;
+}
+.S8{
+    background: url("images/8S.png") no-repeat center center/cover;
+}
+.S9{
+    background: url("images/9S.png") no-repeat center center/cover;
+}
+.S10{
+    background: url("images/10S.png") no-repeat center center/cover;
+}
+.SJ{
+    background: url("images/JS.png") no-repeat center center/cover;
+}
+.SQ{
+    background: url("images/QS.png") no-repeat center center/cover;
+}
+.SK{
+    background: url("images/KS.png") no-repeat center center/cover;
+}

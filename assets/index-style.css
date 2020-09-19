@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+body {
+    background-color: rgb(0, 116, 0);
+}
+
+.player-container {
+    width: 100%;
+    height: 30vh;
+}
+
+.me {
+    position: fixed;
+    bottom: 0;
+    transform: rotate(180deg)
+}
+
+.cards-container {
+    margin: auto;
+    width: fit-content;
+}
+
+.card {
+    height: 120px;
+    width: 80px;
+    background-color: #fff;
+    display: inline-block;
+
+}
+
+.name-container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+.name-container div {
+    padding: 3px 7px;
+    display: inline-block;
+}
+
+.me .name-container div {
+    transform: rotate(180deg);
+}
+
+#cash-left {
+    border-left: 1px solid;
+}
+.cash-left {
+    border-left: 1px solid;
+}
+
+.play-options {
+    border: 2px solid;
+    background-color: #fff;
+    transform: rotate(180deg);
+    width: fit-content;
+    display: flex;
+    height: 120;
+    margin-top: 46px;
+    margin-right: 40px;
+
+}
+
+.play-options div {
+    border: 1px solid;
+    margin: 3px 7px;
+}
+
+.play-options button {
+    height: 100%;
+}
+
+.play-options .bid {
+    width: 100%;
+    height: 35%;
+}
+
+.play-options .curr-value {
+    width: 100%;
+    margin: 0px;
+    border: none;
+    height: 30%;
+    text-align: center;
+}
+
+.play-options .curr-value b {
+    line-height: 35px;
+}
+
+.name-card {
+    margin: auto;
+    width: fit-content;
+}
+
+
+.message_board{
+    height: 230px; 
+    width: 400px; 
+    background: white;
+    margin: auto;
+}
+.game_stats{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+.turn, .total-money, .min-bid{
+    padding: 5px;
+    margin: auto;
+}
+
+.chat_area{
+    padding: 5px 10px;
+    position: relative;
+    height: 190px;
+}
+.send-message{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    position: absolute;
+    bottom: 7px;
+    width: 95%;
+}
+.send-message input{
+    height: 25px;
+}
+
+.chat-show{
+    height: 80%;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.chat{
+    margin: 3px 0px;
+    padding: 3px 5px;
+    height: fit-content;
+    width: 100%;
+}
+
+.players-chat{
+    background-color: #e3e3e3;
+}
+.system-chat{
+    background-color: #f5ed00;
+}
+.warning-chat{
+    background-color: #f50000;
+}
+.info-chat{
+    background-color: #61ff4e;
+}
+.nameless{
+    width: fit-content; 
+    margin: auto; 
+    display: flex;
+}
+
+@media screen and (max-width: 1024px){
+    .message_board {
+        height: 200px;
+    }
+    .chat_area {
+        height: 160px;
+    }
+    .chat-show {
+        height: 75%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .player-container{
+        height: 26vh;
+    }
+    .message_board{
+        height: 180px;
+    }
+    .chat_area{
+        height: 140px;
+    }
+    .nameless{
+        width: 100%;
+        display: initial;
+        bottom: -60px;
+        position: absolute;
+    }
+    .change-bid{
+        display: flex;
+    }
+    .play-options .curr-value{
+        margin: initial;
+    }
+    .play-options .bid{
+        height: 100%;
+        width: 100%;
+    }
+    .play-options .div{
+        margin: 3px 6px;
+    }
+    .card{
+        height: 100px;
+        width: 67px;
+    }
+
+}
+
+@media screen and (min-width:375px){
+    .message_board{
+        width: 98%;
+    }
+    .play-options div{
+        height: 40px;
+        margin: 3px;
+    }
+}
+
+/* message box 98% width, options height 40px margin reduce between buttons */
